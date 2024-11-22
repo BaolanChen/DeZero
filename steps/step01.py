@@ -1,5 +1,7 @@
 """
-实现Variable类
+步骤1 创建DeZero的组成元素-变量
+
+实现Variable类，作为变量类
 """
 
 class Variable:
