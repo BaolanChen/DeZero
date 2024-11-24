@@ -36,3 +36,40 @@ DeZero是以简单易懂为第一设计原则的极简深度学习框架。
 PyTorch和TensorFlow等现代深度学习框架有许多相同的功能，
 其中一个重要的功能是Define-by-Run。Define-by-Run是在进行深度学习计算时在计算之间建立"连接"的机制。
 本项目创建的DeZero框架就是一个Define-by-Run风格的框架，其中采用了许多与现代深度学习框架相同的设计。
+
+
+## 项目文件夹内容
+
+|文件夹名 |说明         |
+|:--        |:--                  |
+|[dezero](/dezero)       |DeZero的源代码|
+|[examples](/examples)     |使用DeZero开发的示例|
+|[steps](/steps)|各步骤的代码文件（step01.py ~ step60.py）|
+|[tests](/tests)|DeZero的单元测试|
+
+
+## 所需的外部库
+
+使用的Python版本和外部库如下所示。
+
+- [Python 3](https://docs.python.org/3/)
+- [NumPy](https://numpy.org/)
+- [Matplotlib](https://matplotlib.org/)
+
+另外DeZero还提供了可在NVIDIA的GPU上运行的可选功能。此时需要安装下面的库。
+
+- [CuPy](https://cupy.chainer.org/) （可选）
+
+
+## 运行方法
+
+讲解的Python文件主要在[steps](/steps)文件夹中。
+可以通过以下Python命令运行这些文件（可以在任何目录下运行Python命令）。
+
+```
+$ python steps/step01.py
+$ python steps/step02.py
+
+$ cd steps
+$ python step31.py
+```
