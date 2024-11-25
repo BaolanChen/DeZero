@@ -8,7 +8,10 @@ Function作为基类，实现所有函数通用的功能，其中__call__方法�
 Square类继承自Function类，也继承了__call__的方法，因此只要在forward中编写具体的计算代码，就可以完成Square类的实现。
 """
 
-from step01 import Variable
+
+class Variable:
+    def __init__(self, data):
+        self.data = data
 
 
 class Function:
