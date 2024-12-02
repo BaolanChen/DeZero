@@ -6,7 +6,8 @@ DeZero是一种极简的深度学习框架，设计细节来自于<a href="https
 
 ## 项目简介
 
-项目种创建了一个深度学习框架——DeZero。DeZero是《深度学习入门2：自制框架》原创的框架，它用最少的代码实现了现代深度学习框架的功能。DeZero是一个小而强大的框架，将通过60个步骤来完成它。
+此项目中创建了一个深度学习框架——DeZero。
+DeZero是《深度学习入门2：自制框架》原创的框架，它用最少的代码实现了现代深度学习框架的功能。
 
 <!-- <p>
 <img src="https://raw.githubusercontent.com/oreilly-japan/deep-learning-from-scratch-3/images/dezero_logo.png" width="400px" </p>
