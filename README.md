@@ -31,7 +31,6 @@ DeZero是以简单易懂为第一设计原则的极简深度学习框架。
 ### 2. 纯Python
 许多深度学习框架中使用多种编程语言(纯Python和C++)来实现，而DeZero只采用Python来实现。
 因此只要懂Python，就可以很容易地阅读DeZero框架中地源代码。
-由于该框架只使用Python来实现，所以可以轻松地在智能手机上，或者使用Google Colaboratory等服务在云端运行它。
 
 ### 3. 具备现代深度学习框架的功能
 PyTorch和TensorFlow等现代深度学习框架有许多相同的功能，
